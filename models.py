@@ -46,7 +46,6 @@ class Player:
     @staticmethod
     def fight(attack, defence):
         """Fight method"""
-        print(attack, defence)
         if attack == defence:
             return 0
         else:
