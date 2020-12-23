@@ -1,4 +1,9 @@
+"""Exception file"""
+
+
 class GameOver(Exception):
+    """Method that ends the game and writes the score to a text file"""
+
     def __init__(self, name, score):
         self.name = name
         self.score = score
@@ -7,4 +12,5 @@ class GameOver(Exception):
 
 
 class EnemyDown(Exception):
+    """EnemyDown class has no functional"""
     pass

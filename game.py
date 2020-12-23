@@ -1,8 +1,10 @@
+"""Main executable"""
 from models import Enemy, Player
 from exceptions import GameOver, EnemyDown
 
 
 def start():
+    """Start function that starts the game, or not:)"""
     g_start = input('Type \'start\' if you wanna play: ')
     if g_start == 'start':
         print('Game BEGINS!!!')
@@ -12,6 +14,7 @@ def start():
 
 
 def play():
+    """function that starts the game play"""
     print('Please type your nickname')
     name = input('Your nickname: ')
     start()
